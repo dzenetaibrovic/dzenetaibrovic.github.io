@@ -311,8 +311,10 @@ p {
 }
 
 /* ________we are hiring_________ */
-.hiring .wrapper {
+.additional-wrapper {
   padding: 140px 0 165px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .join {
@@ -446,6 +448,11 @@ button {
   line-height: 24px;
 }
 
+.like-icon {
+  padding: 10px;
+  height: fit-content;
+}
+
 .follow {
   display: inline-block;
   padding-left: 90px;
@@ -481,9 +488,7 @@ button {
     z-index: -1;
     width: 65%;
   }
-  .like {
-    padding: 0;
-  }
+
   h3 {
     font-size: 22px;
   }
@@ -507,7 +512,7 @@ button {
   }
 
   .wrapper img {
-    width: 20%;
+    width: 30%;
   }
 
   .right-side {
@@ -524,6 +529,19 @@ button {
 
   .space {
     width: 40%;
+  }
+
+  .like {
+    width: 100%;
+  }
+
+  .like img {
+    width: 50%;
+  }
+
+  .additional-wrapper img {
+    width: 30%;
+    height: fit-content;
   }
 
   .form {
@@ -601,6 +619,11 @@ button {
     padding: 15px 10px;
   }
 
+  .additional-wrapper img {
+    width: 30%;
+    height: fit-content;
+  }
+
   .cards {
     display: flex;
     flex-direction: column;
@@ -627,6 +650,10 @@ button {
   .button-padding .link-button {
     padding: 10px 40px;
   }
+  .join {
+    display: flex;
+    flex-direction: column;
+  }
 
   .join .link-button {
     padding: 15px 10px;
@@ -643,10 +670,11 @@ button {
 
   .like {
     padding: 10px;
+    width: 100%;
   }
 
   .wrapper img {
-    width: 30%;
+    width: 50%;
     height: fit-content;
   }
 
